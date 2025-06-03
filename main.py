@@ -10,7 +10,8 @@ def is_evenx(num):
     else:
         return False
     
-    import csv
+    
+import csv
 
 # Sample data
 data = [
@@ -25,4 +26,4 @@ with open("sample_data.csv", mode="w", newline="") as file:
     writer = csv.writer(file)
     writer.writerows(data)
 
-print("CSV file 'sample_data.csv' created successfully.")
+print("CSV file 'sample_data.csv' created successfully.")
